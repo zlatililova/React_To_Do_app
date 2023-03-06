@@ -1,0 +1,21 @@
+.todo__item {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.taskTitle {
+  width: fit-content;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+button {
+  height: fit-content;
+}
+
+.crossed {
+  text-decoration: line-through;
+  color: green;
+}

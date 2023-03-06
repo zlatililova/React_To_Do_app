@@ -1,0 +1,21 @@
+.App {
+  padding: 0 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.columns {
+  display: flex;
+  max-width: 90rem;
+  margin-inline: auto;
+  position: relative;
+  gap: 3rem;
+  min-height: 25rem;
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+}
